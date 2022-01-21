@@ -40,7 +40,9 @@ function main(filePaths, listDifferent) {
         writeLine: console.log.bind(console),
       };
 
-  logger.writeLine(chalk`{yellowBright Organizing imports...}`);
+  logger.writeLine(
+    chalk`{yellowBright Organizing & adding missing imports...}`
+  );
 
   /**
    * @type {Record<string, {
