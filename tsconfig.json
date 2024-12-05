@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "Node16",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "sourceMap": false,
+      "allowJs": true,
+      "lib": ["ES2017"],
+      "target": "es2017",
+      "outDir": "output",
+      "strict": false,
+      "alwaysStrict": false
+    },
+    "files": ["cli.ts"],
+    "exclude": ["node_modules"]
+  }
+  
